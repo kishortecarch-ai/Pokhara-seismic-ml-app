@@ -1,0 +1,97 @@
+{
+  "feature_order": [
+    "target_PGA_g",
+    "dir_Y",
+    "assumed_column_rho",
+    "assumed_beam_rho",
+    "assumed_tie_spacing_mm",
+    "assumed_core_strength_multiplier",
+    "story_count_inferred_unverified"
+  ],
+  "best_regression_model": "RF",
+  "best_classification_model": "RF",
+  "class_decoder": [
+    1,
+    2
+  ],
+  "observed_classes": [
+    1,
+    2
+  ],
+  "n_simulations": 144,
+  "n_buildings": 6,
+  "independent_earthquake_records": 1,
+  "training_PGA_levels_g": [
+    0.35,
+    0.45,
+    0.6,
+    0.8
+  ],
+  "building_ids": [
+    "B1",
+    "B10",
+    "B11",
+    "B12",
+    "B15",
+    "B17"
+  ],
+  "scenario_names": [
+    "lower_detailing",
+    "nominal_assumption",
+    "upper_detailing"
+  ],
+  "range_by_feature": {
+    "target_PGA_g": [
+      0.35,
+      0.8
+    ],
+    "dir_Y": [
+      0.0,
+      1.0
+    ],
+    "assumed_column_rho": [
+      0.01,
+      0.025
+    ],
+    "assumed_beam_rho": [
+      0.007,
+      0.015
+    ],
+    "assumed_tie_spacing_mm": [
+      75.0,
+      150.0
+    ],
+    "assumed_core_strength_multiplier": [
+      1.08,
+      1.3
+    ],
+    "story_count_inferred_unverified": [
+      3.0,
+      4.0
+    ]
+  },
+  "hazus_high_code_c1_threshold_ratio": {
+    "C1L": [
+      0.005,
+      0.01,
+      0.03,
+      0.08
+    ],
+    "C1M": [
+      0.0033,
+      0.0067,
+      0.02,
+      0.0533
+    ],
+    "C1H": [
+      0.0025,
+      0.005,
+      0.015,
+      0.04
+    ]
+  },
+  "hazus_source": "https://www.fema.gov/sites/default/files/documents/fema_hazus-earthquake-model-technical-manual-5-1.pdf",
+  "note": "Conditional High-Code C1 assumption; story counts inferred; four-group mapping is analytical; not certified, not physical collapse; one earthquake record",
+  "validated_fragility": false,
+  "physical_model_validated": false
+}
