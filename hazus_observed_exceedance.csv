@@ -1,0 +1,13 @@
+PGA_g,threshold,n,exceedances,observed_fraction,earthquake_records,validated_fragility
+0.35,Moderate+,36,36,1.0,1,False
+0.35,Extensive+,36,0,0.0,1,False
+0.35,Complete-threshold+,36,0,0.0,1,False
+0.45,Moderate+,36,36,1.0,1,False
+0.45,Extensive+,36,0,0.0,1,False
+0.45,Complete-threshold+,36,0,0.0,1,False
+0.6,Moderate+,36,36,1.0,1,False
+0.6,Extensive+,36,5,0.1388888888888889,1,False
+0.6,Complete-threshold+,36,0,0.0,1,False
+0.8,Moderate+,36,36,1.0,1,False
+0.8,Extensive+,36,18,0.5,1,False
+0.8,Complete-threshold+,36,0,0.0,1,False
