@@ -1,0 +1,51 @@
+{
+  "feature_order": [
+    "target_PGA_g",
+    "direction",
+    "column_width_mm",
+    "column_depth_mm",
+    "beam_width_mm",
+    "beam_depth_mm",
+    "storeys_from_frame",
+    "height_from_frame_m",
+    "plan_bbox_area_m2"
+  ],
+  "training_feature_ranges": {
+    "target_PGA_g": {
+      "min": 0.35,
+      "max": 0.8
+    },
+    "direction": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "column_width_mm": {
+      "min": 356.0,
+      "max": 356.0
+    },
+    "column_depth_mm": {
+      "min": 356.0,
+      "max": 356.0
+    },
+    "beam_width_mm": {
+      "min": 225.0,
+      "max": 225.0
+    },
+    "beam_depth_mm": {
+      "min": 425.0,
+      "max": 425.0
+    },
+    "storeys_from_frame": {
+      "min": 3.0,
+      "max": 4.0
+    },
+    "height_from_frame_m": {
+      "min": 9.0,
+      "max": 12.0
+    },
+    "plan_bbox_area_m2": {
+      "min": 96.6242056,
+      "max": 180.68376144
+    }
+  }
+}
